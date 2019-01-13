@@ -4,7 +4,7 @@ import pkg from "./package.json";
 
 
 export default {
-	input: "src/domlit.ts",
+	input: "src/index.ts",
 	output: [
 		{file: pkg["module"], format: "es", sourcemap: true},
 		{file: pkg["main"], format: "cjs", sourcemap: true},

@@ -5,7 +5,7 @@
   "main": "dist/domlit.cjs.js",
   "module": "dist/domlit.es.js",
   "jsnext:main": "dist/domlit.es.js",
-  "types": "dist/domlit.d.ts",
+  "types": "dist/types/index.d.ts",
   "files": [
     "dist",
     "README.md"
@@ -28,7 +28,7 @@
     "url": "git+https://github.com/tsne/domlit.git"
   },
   "devDependencies": {
-    "rollup": "^0.67.4",
-    "rollup-plugin-tsc": "^1.1.14"
+    "rollup": "^1.1.0",
+    "rollup-plugin-tsc": "^1.1.15"
   }
 }
